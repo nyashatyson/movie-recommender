@@ -13,14 +13,6 @@ The system combines multiple recommendation strategies to generate high-quality 
 - Movie posters from the TMDB API
 - Interactive UI built with Streamlit
 
-## How to Run
-## Run Locally
-git clone https://github.com/nyashatyson/movie-recommender.git
-cd movie-recommender
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m streamlit run app/streamlit_app.py
 
 ## Recommendation Models
 
@@ -58,3 +50,9 @@ Contains:
 
 ```bash
 python -m venv .venv
+git clone https://github.com/nyashatyson/movie-recommender.git
+cd movie-recommender
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m streamlit run app/streamlit_app.py
