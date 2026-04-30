@@ -23,6 +23,7 @@ class CollaborativeRecommender:
             index="userId",
             columns="movieId",
             values="rating"
+            
         )
 
         user_item_filled = self.user_item_matrix.fillna(0)
