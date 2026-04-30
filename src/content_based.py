@@ -4,6 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 class ContentRecommender:
+    
     def __init__(self) -> None:
         self.movies = None
         self.tfidf = None
